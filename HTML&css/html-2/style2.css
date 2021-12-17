@@ -1,0 +1,56 @@
+/* For Question 5 to 8 */
+
+.q5 th,
+.q5 td,
+.q5 table {
+  border-collapse: collapse;
+  border-style: solid;
+}
+
+/* Question 6 */
+.q6 table,
+.q6 td {
+  border: 2px solid green;
+}
+
+.q6 th {
+  background-color: green;
+  color: #ffffff;
+  border: 2px solid green;
+}
+
+/* Question 7 */
+.doubleBorder {
+  border: 2px dotted green;
+  width: fit-content;
+  padding: 2em;
+  position: relative;
+  /* margin: 0 auto; */
+}
+.doubleBorder:before {
+  border: 2px solid orange;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+}
+
+/* Question 8 */
+.q8 #q1,.q8 #q2,.q8 #q3{
+    border-style: solid;
+    width: 10%;
+    padding: .2em;
+}
+.q8 #q1{
+    
+    border-width: thick;
+}
+.q8 #q2{
+    border-width: medium;
+}
+.q8 #q3{
+    border-width: thin;
+}

@@ -1,0 +1,49 @@
+/* Question 1 */
+.q1 {
+  background-color: gray;
+}
+
+.q1 h1 {
+  background-color: blue;
+}
+
+.q1 p {
+  background-color: aquamarine;
+}
+
+/* Question 2 */
+* {
+  background-color: #7fb2d1;
+}
+
+.q2 h2 {
+  text-decoration: line-through;
+}
+
+.q2 h3 {
+  text-decoration: underline;
+}
+
+/* Question 4 */
+/* unvisited link */
+.q4 a:link {
+  color: blue;
+}
+
+/* visited link */
+.q4 a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+.q4 a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/* selected link */
+.q4 a:active {
+  color: green;
+}
+
+

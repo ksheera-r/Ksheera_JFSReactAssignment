@@ -1,0 +1,43 @@
+.q1-body{
+    background-color: yellow;
+}
+.q1 h1{
+    background-color: red;
+}
+.q1 p{
+    background-color: green;
+}
+
+.q2 #ans1 a img{    
+    border: 2px solid purple;
+    width: 40px;
+    height: auto;
+}
+.q2 #ans2 a img{    
+    width: 40px;
+    height: auto;
+}
+
+table, td{
+    /* border: 1px inset black; */
+    border-collapse: collapse;
+    border-style: inset;
+    
+}
+#q4-2, #q4-2 td{
+    border-style: none;    
+}
+
+#q8 #row2 td, #q9 #row2 td{
+    padding: 15px 15px 0px 0px;
+    text-align: initial;
+}
+#q8 tr:nth-child(1){
+    background-color: cadetblue;
+}
+#q8 #row2 td:nth-child(1), #q9 #row1 td:nth-child(2), #q9 #row2 td:nth-child(1){
+    background-color: gray;
+}
+#q8 #row2 td:nth-child(2n), #q9 #row1 td:nth-child(1), #q9 #row2 td:nth-child(2){
+    background-color: lightgray;
+}
